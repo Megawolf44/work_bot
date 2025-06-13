@@ -1,0 +1,10 @@
+@dataclass
+class UserRequest:
+    wall: str = ""
+    shrobe: str = ""
+    area: float = 0.0
+    full_name: str = ""
+    phone: str = ""
+    address: str = ""
+    photos: list = field(default_factory=list)
+    total: float = 0.0

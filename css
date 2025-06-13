@@ -1,0 +1,8 @@
+electro_bot/
+├── main.py
+├── database.db         ← база SQLite
+├── templates/
+│   └── logo.png        ← можно добавить логотип в PDF
+└── files/
+    └── заявки.pdf      ← создаются временные файлы
+
