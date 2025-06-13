@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
-DOMAIN = os.getenv("DOMAIN", "http://127.0.0.1:4000")  # URL домена или локального сервера
+DOMAIN = os.getenv("DOMAIN", "http://0.0.0.0:5000")  # URL домена или локального сервера
 
 EXCEL_FILE = 'requests.xlsx'
 DB_FILE = 'requests.db'
